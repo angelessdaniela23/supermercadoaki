@@ -1,0 +1,441 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Akimovil</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  </head>
+  <body>
+
+  <!--MENU-->
+
+    <nav class="navbar navbar-expand-lg navbar-dark bg-danger">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#"><img src="https://www.aki.com.ec/wp-content/uploads/2021/05/logo_aki_sm.png" width="65%" alt=""></a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDarkDropdown" aria-controls="navbarNavDarkDropdown" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+
+
+        <div class="collapse navbar-collapse" id="navbarNavDarkDropdown1">
+          <ul class="navbar-nav">
+            <li class="nav-item dropdown">
+              <button class="btn btn-danger dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false">
+                CAMBIATE A AkíMOVIL
+              </button>
+              <ul class="dropdown-menu bg-danger border-white">
+                <li><a class="dropdown-item text-white border-bottom" href="#">Conservando tu número</a></li>
+                <li><a class="dropdown-item text-white border-bottom" href="#">Nuevo número con cédula</a></li>
+                <li><a class="dropdown-item text-white " href="#">Nuevo número con pasaporte</a></li>
+              </ul>
+            </li>
+          </ul>
+        </div>
+
+
+
+        <div class="collapse navbar-collapse" id="navbarNavDarkDropdown2">
+          <ul class="navbar-nav">
+            <li class="nav-item dropdown">
+              <button class="btn btn-danger dropdown-toggle btn-hover-off" data-bs-toggle="dropdown" aria-expanded="false">
+                COMPRAR
+              </button>
+              <ul class="dropdown-menu bg-danger border-white">
+                <li><a class="dropdown-item text-white border-bottom" href="#">Combos</a></li>
+                <li><a class="dropdown-item text-white border-bottom" href="#">Bonos</a></li>
+                <li><a class="dropdown-item text-white " href="#">Recargas</a></li>
+              </ul>
+            </li>
+          </ul>
+        </div>
+
+
+        <div class="collapse navbar-collapse" id="navbarNavDarkDropdown3">
+          <ul class="navbar-nav">
+            <li class="nav-item dropdown">
+              <button class="btn btn-danger dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false">
+                SERVICIOS
+              </button>
+              <ul class="dropdown-menu bg-danger border-white">
+                <li><a class="dropdown-item text-white border-bottom" href="#">Suspender equipo</a></li>
+                <li><a class="dropdown-item text-white" href="#">Liberar equipo</a></li>
+              </ul>
+            </li>
+          </ul>
+        </div>
+
+        <div class="collapse navbar-collapse" id="navbarNavDarkDropdown4">
+              <button class="btn btn-danger" data-bs-toggle="dropdown" aria-expanded="false">
+                AYUDA
+              </button>
+        </div>
+
+        <div class="collapse navbar-collapse" id="navbarNavDarkDropdown5">
+              <button class="btn btn-danger" data-bs-toggle="dropdown" aria-expanded="false">
+                MI CUENTA
+              </button>
+        </div>
+
+      </div>
+  </nav>
+
+  <!--Desactivar el efecto de hover en los botones*/-->
+
+  <style>
+
+    .navbar-nav .dropdown:hover .btn-danger {
+      background-color: transparent;
+      border-color: transparent;
+    }
+
+    .custom-accordion .accordion-button {
+      border-bottom: 2px solid red; /* Cambia 'red' al color que desees */
+    }
+
+  </style>
+
+  <!--TERMINA EL MENU-->
+
+  <br>
+
+  <!--CONTENIDO-->
+
+  <div class="con-con bg-secondary bg-light">
+    <h3 class="text-center text-danger"><strong>¿EN QUÉ PODEMOS AYUDARTE?</strong></h3>
+    <br>
+    <div class="row">
+      <div class="col-md-2">
+      </div>
+      <div class="col-md-8">
+        <form class="d-flex" role="search">
+          <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+          <button class="btn btn-width bg-width" type="submit" style="height: 68px;"><i class="fa-solid fa-magnifying-glass"></i></button>
+        </form>
+        <br>
+        <div class="accordion accordion-flush" id="accordionFlushExample ">
+          <div class="accordion-item accordion custom-accordion">
+            <h2 class="accordion-header">
+              <button class="accordion-button collapsed btn-lg" type="button" data-bs-toggle="collapse" style="height: 75px;" data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">
+                <strong>¿Qué es un combo?</strong>
+              </button>
+            </h2>
+            <div id="flush-collapseOne" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+              <div class="accordion-body">¡Es lo mejor de los dos mundos! Obtienes los beneficios de un plan con la libertad de prepago, con tu prepago AkíMOVIL accede al Combo que tú quieras. Todos llenos de Megas, Minutos y WhatsApp gratis.</div>
+              <div class="accordion-body">Este es el nuevo párrafo que se agregó debajo del párrafo anterior.</div>
+            </div>
+          </div>
+          <div class="accordion-item accordion custom-accordion">
+            <h2 class="accordion-header">
+              <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" style="height: 75px;" data-bs-target="#flush-collapseTwo" aria-expanded="false" aria-controls="flush-collapseTwo">
+                <strong>¿Si quiero contratar un combo qué debo hacer?</strong>
+              </button>
+            </h2>
+            <div id="flush-collapseTwo" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+              <div class="accordion-body">Si ya eres prepago AkíMOVIL es muy fácil, marca al *106# o actívalos desde la App AkíMOVIL.</div>
+            </div>
+          </div>
+          <div class="accordion-item accordion custom-accordion">
+            <h2 class="accordion-header">
+              <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" style="height: 75px;" data-bs-target="#flush-collapseThree" aria-expanded="false" aria-controls="flush-collapseThree">
+                <strong>¿Qué es un combo con forma de pago recurrente?</strong>
+              </button>
+            </h2>
+            <div id="flush-collapseThree" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+              <div class="accordion-body">La forma de pago recurrente es la facilidad de renovar automáticamente los combos con vigencia de 30 días registrando como forma de pago, tarjeta de crédito.</div>
+            </div>
+            <div id="flush-collapseThree" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+              <div class="accordion-body">Cuando el cliente AkíMOVIL activa la renovación automática o pago recurrente en locales formatos Akí, APP AkíMOVIL o www.akimovil.ec, acumulará hasta el 15% en AkíRecargas.</div>
+            </div>
+          </div>
+          <div class="accordion-item accordion custom-accordion">
+            <h2 class="accordion-header">
+              <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" style="height: 75px;" data-bs-target="#flush-collapseFour" aria-expanded="false" aria-controls="flush-collapseFour">
+                <strong>¿Los combos se acumulan?</strong>
+              </button>
+            </h2>
+            <div id="flush-collapseFour" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+              <div class="accordion-body">Sí, en los combos $0.99, $2.99, $4.99, $7.99, $9.99 y $14.99 podrás acumular los gigas y minutos todo destino que no usaste, contratando un nuevo combo antes que finalice el combo vigente.</div>
+            </div>
+          </div>
+          <div class="accordion-item accordion custom-accordion">
+            <h2 class="accordion-header">
+              <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" style="height: 75px;" data-bs-target="#flush-collapseFive" aria-expanded="false" aria-controls="flush-collapseFive">
+                <strong>¿Cuáles son los combos disponibles?</strong>
+              </button>
+            </h2>
+            <div id="flush-collapseFive" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+              <div class="accordion-body">Combo $29.99 con 25GB para navegar + Redes Sociales libres + 10GB para Netflix y YouTube, Minutos ilimitados todo destino nacional, 100 Minutos larga distancia internacional 14 destinos, 100 SMS y WhatsApp gratis. Vigencia 30 días.</div>
+            </div>
+            <div id="flush-collapseFive" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+              <div class="accordion-body">Combo $23.99 con 15GB para navegar + Redes Sociales libres + 7GB para Netflix y YouTube, Minutos ilimitados onnet, 500 Minutos a otras operadoras, 100 Minutos larga distancia internacional 14 destinos, 100 SMS y WhatsApp gratis. Vigencia 30 días.</div>
+            </div>
+            <div id="flush-collapseFive" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+              <div class="accordion-body">Combo $14.99 con 12GB para navegar + 3GB Redes Sociales, Minutos ilimitados onnet, 150 Minutos a otras operadoras y WhatsApp gratis. Vigencia 30 días.</div>
+            </div>
+            <div id="flush-collapseFive" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+              <div class="accordion-body">Combo $9.99 con 8GB para navegar + 3GB Redes Sociales, Minutos ilimitados onnet, 150 Minutos a otras operadoras y WhatsApp gratis. Vigencia 30 días.</div>
+            </div>
+            <div id="flush-collapseFive" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+              <div class="accordion-body">Combo $7.99 con 5GB para navegar + 3GB Redes Sociales, Minutos ilimitados onnet, 100 Minutos a otras operadoras y WhatsApp gratis. Vigencia 30 días.</div>
+            </div>
+            <div id="flush-collapseFive" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+              <div class="accordion-body">Combo $4.99 con 3GB para navegar + 2GB Redes Sociales, Minutos ilimitados onnet, 100 Minutos a otras operadoras y WhatsApp gratis. Vigencia 15 días.</div>
+            </div>
+            <div id="flush-collapseFive" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+              <div class="accordion-body">Combo $2.99 con 1GB para navegar + 2GB Redes Sociales, Minutos ilimitados onnet, 30 Minutos a otras operadoras y WhatsApp gratis. Vigencia 7 días.</div>
+            </div>
+            <div id="flush-collapseFive" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+              <div class="accordion-body">Combo $0.99 con 512MB para navegar + 512MB Redes Sociales, Minutos ilimitados onnet, 10 Minutos a otras operadoras y WhatsApp gratis. Vigencia 1 día</div>
+            </div>
+          </div>
+          <div class="accordion-item accordion custom-accordion">
+            <h2 class="accordion-header">
+              <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" style="height: 75px;"data-bs-target="#flush-collapseSix" aria-expanded="false" aria-controls="flush-collapseSix">
+                <strong>¿Qué son AkíRecargas?</strong>
+              </button>
+            </h2>
+            <div id="flush-collapseSix" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+              <div class="accordion-body">Es un sistema de acumulación de beneficios otorgado por Corporación Favorita a los clientes OTECEL S.A bajo la marca comercial AkíMOVIL. </div>
+            </div>
+            <div id="flush-collapseSix" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+              <div class="accordion-body">Con AkíRecargas los clientes AkíMOVIL con línea activa podrán redimir GRATIS Combos, Bonos y Recargas en locales de Corporación Favorita formatos Akí y en la APP AkíMOVIL. </div>
+            </div>
+            <div id="flush-collapseSix" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+              <div class="accordion-body">La acumulación de AkíRecargas será 48 horas después de la activación de la línea. Por la compra de productos de supermercado de marcas participantes, el cliente AkíMOVIL acumulará el 10% del valor de su compra en AkíRecargas y activando forma de pago recurrente, acumulará el 15%, según las condiciones establecidas por Corporación Favorita. </div>
+            </div>
+          </div>
+          <div class="accordion-item accordion custom-accordion">
+            <h2 class="accordion-header">
+              <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" style="height: 75px;"  data-bs-target="#flush-collapseSeven" aria-expanded="false" aria-controls="flush-collapseSeven">
+                <strong>¿Qué es un saldo remanente?</strong>
+              </button>
+            </h2>
+            <div id="flush-collapseSeven" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+              <div class="accordion-body">Los valores correspondientes a saldos remanentes son aquellos saldos restantes proveniente de recargas que queda en una línea luego de la baja o cancelación de la misma y que por disposición de la Ley de Telecomunicaciones debe devolverse una vez terminada la prestación de servicio o a partir de que la línea no se encuentre activa, aplica para prepago (recargas).</div>
+            </div>
+            <div id="flush-collapseSeven" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+              <div class="accordion-body">El cliente dispone de 90 días hábiles a partir de la baja de su línea para solicitar la devolución de este saldo caso contrario trascurrido este tiempo, este saldo será transferido al Estado conforme lo estipula el Marco Legal Vigente.</div>
+            </div>
+          </div>
+          <div class="accordion-item accordion custom-accordion">
+            <h2 class="accordion-header">
+              <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" style="height: 75px;" data-bs-target="#flush-collapseEight" aria-expanded="false" aria-controls="flush-collapseEight">
+                <strong>¿Cómo suspendo mi teléfono por robo?</strong>
+              </button>
+            </h2>
+            <div id="flush-collapseEight" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+              <div class="accordion-body">Marca desde una línea AkíMOVIL al *106 opción 4.</div>
+            </div>
+            <div id="flush-collapseEight" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+              <div class="accordion-body">Desde cualquier otro número celular llama al 0958700021.</div>
+            </div>
+            <div id="flush-collapseEight" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+              <div class="accordion-body">Más dudas, contacta con Atención al Cliente marcando al *106 opción 5.</div>
+            </div>
+            <div id="flush-collapseEight" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+              <div class="accordion-body"><strong>Y si quieres levantar la suspensión</strong></div>
+            </div>
+            <div id="flush-collapseEight" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+              <div class="accordion-body">Marca desde una línea AkíMOVIL al *106 opción 5.</div>
+            </div>
+            <div id="flush-collapseEight" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+              <div class="accordion-body">Desde cualquier otro número celular llama al 0958700021.</div>
+            </div>
+            <div id="flush-collapseEight" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+              <div class="accordion-body">Para más información revisa aquí.</div>
+            </div>
+          </div>
+          <div class="accordion-item accordion custom-accordion">
+            <h2 class="accordion-header">
+              <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" style="height: 75px;" data-bs-target="#flush-collapseNine" aria-expanded="false" aria-controls="flush-collapseNine">
+                <strong>COMUNICADO LEY ORGÁNICA DE LAS PERSONAS ADULTAS MAYORES</strong>
+              </button>
+            </h2>
+            <div id="flush-collapseNine" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+              <div class="accordion-body"><strong>Beneficio: </strong></div>
+            </div>
+            <div id="flush-collapseNine" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+              <div class="accordion-body">Considerando el Reglamento General de la Ley Orgánica de las Personas Adultas Mayores, se aplicará el descuento del 50% a los Adultos</div>
+            </div>
+            <div id="flush-collapseNine" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+              <div class="accordion-body">Mayores que soliciten este beneficio sobre las tarifas bajo de demanda de voz, datos y SMS del Plan Prepago AKíMOVIL. </div>
+            </div>
+            <div id="flush-collapseNine" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+              <div class="accordion-body"><strong>Condiciones: </strong></div>
+            </div>
+            <div id="flush-collapseNine" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+              <div class="accordion-body">a) Aplica para clientes registrados con Cédula, Pasaporte vigente o Ruc Personal con 65 años cumplidos.</div>
+            </div>
+            <div id="flush-collapseNine" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+              <div class="accordion-body">b) El abonado Adulto Mayor debe ser el titular de la línea para la que solicita el beneficio.</div>
+            </div>
+            <div id="flush-collapseNine" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+              <div class="accordion-body">c) El abonado podrá acceder al beneficio por una única vez y en una sola operadora. </div>
+            </div>
+            <div id="flush-collapseNine" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+              <div class="accordion-body">d) El abonado Adulto Mayor puede solicitar la activación de este beneficio enviando un correo electrónico a servicio@akimovil.ec adjuntando su copia de cédula de identidad, pasaporte o carnet de afiliación, también puede solicitarlo en la página web www.akimovil.ec ingresando a MI CUENTA, nueva solicitud, para solicitudes.</div>
+            </div>
+            <div id="flush-collapseNine" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+              <div class="accordion-body">e) Se facilitará al abonado un Formulario de Verificación, el mismo que no es un limitante para la activación del beneficio. Formulario de Verificación</div>
+            </div>
+            <div id="flush-collapseNine" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+              <div class="accordion-body">f) El beneficio será activado en un lapso de 48 horas posterior a la solicitud.</div>
+            </div>
+            <div id="flush-collapseNine" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+              <div class="accordion-body">g) Las tarifas bajo demanda son las definidas en el plan Prepago AKíMOVIL publicadas en www.akimovil.ec y sobre estas tarifas aplicara el descuento del 50%. </div>
+            </div>
+            <div id="flush-collapseNine" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+              <div class="accordion-body">h) Para acceder al beneficio, el abonado Adulto Mayor debe tener saldo de recarga disponible en su línea y no haber activado ningún combo o bono promocional.</div>
+            </div>
+            <div id="flush-collapseNine" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+              <div class="accordion-body">i) Aplica para uso personal, no para uso comercial.</div>
+            </div>
+            <div id="flush-collapseNine" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+              <div class="accordion-body">j) El beneficio se perderá si el cliente cambia de número o cambia de plan.</div>
+            </div>
+          </div>
+          <div class="accordion-item">
+            <h2 class="accordion-header">
+              <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" style="height: 75px;" data-bs-target="#flush-collapseTeen" aria-expanded="false" aria-controls="flush-collapseTeen">
+                <strong>GUÍA DE CONTROL PARENTAL</strong>
+              </button>
+            </h2>
+            <div id="flush-collapseTeen" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+              <div class="accordion-body">Revisa la guía aquí.</div>
+            </div>
+          </div>
+          <br><br>
+        </div>
+        <div class="accordion " id="accordionExample">
+            <div class="accordion-item bg-light">
+              <h2 class="accordion-header">
+                <button class="accordion-button bg-light text-dark" type="button" data-bs-toggle="collapse" data-bs-target="#collapseacor" aria-expanded="true" aria-controls="collapseacor">
+                  <strong>TÉRMINOS Y CONDICIONES</strong>
+                </button>
+              </h2>
+              <div id="collapseuno" class="accordion-collapse collapse show" data-bs-parent="#accordionExample">
+                <div class="accordion-body bg-light">
+                  <div class="accordion" id="accordionExample">
+                      <div class="accordion-item bg-light">
+                        <h2 class="accordion-header">
+                          <button class="accordion-button bg-light text-dark" type="button" data-bs-toggle="collapse" data-bs-target="#collapseuno" aria-expanded="true" aria-controls="collapseuno">
+                            <strong>TARIFAS ON DEMAND</strong>
+                          </button>
+                        </h2>
+                        <div id="collapseuno" class="accordion-collapse collapse show" data-bs-parent="#accordionExample">
+                          <div class="accordion-body">
+                            <strong>This is the first item's accordion body.</strong> It is shown by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
+                          </div>
+                        </div>
+                      </div>
+                      <div class="accordion-item">
+                        <h2 class="accordion-header">
+                          <button class="accordion-button collapsed bg-light" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                            <strong>PROMOCION COMBOS PREPAGO AKÍMOVIL</strong>
+                          </button>
+                        </h2>
+                        <div id="collapseTwo" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                          <div class="accordion-body">
+                            <strong>This is the second item's accordion body.</strong> It is hidden by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
+                          </div>
+                        </div>
+                      </div>
+                      <div class="accordion-item">
+                        <h2 class="accordion-header">
+                          <button class="accordion-button collapsed bg-light" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                            Accordion Item #3
+                          </button>
+                        </h2>
+                        <div id="collapseThree" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                          <div class="accordion-body">
+                            <strong>This is the third item's accordion body.</strong> It is hidden by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                </div>
+
+              </div>
+            </div>
+          </div>
+      </div>
+      <div class="col-md-2">
+      </div>
+
+    </div>
+    <br><br><br>
+  </div>
+  <br>
+
+  <!--PIE1-->
+
+<div class="con-pie">
+
+  <div class="row">
+    <div class="col-md-2">
+    </div>
+    <div class="col-md-4">
+      <h1>AkíMOVIL</h1>
+      <h4>Una marca de Corporación Favorita ©2019</h4>
+      <div class="row">
+        <div class="col-md-3">
+          <img src="https://www.corporacionfavorita.com/wp-content/uploads/2020/03/cf-logos-aki.jpg" height="10%" weight="10%" alt="">
+        </div>
+        <div class="col-md-3">
+          <img src="https://www.aki.com.ec/catalogo-navidad2021/wp-content/uploads/2021/11/gran-aki.png" height="10%" weight="10%" alt="">
+        </div>
+        <div class="col-md-3">
+          <img src="https://www.corporacionfavorita.com/wp-content/uploads/2020/03/cf-logos-superaki.jpg" height="11%" weight="11%" alt="">
+        </div>
+        <div class="col-md-3">
+          <img src="https://www.akimovil.ec/assets/styles/icons/aki_shop_4.svg" height="8%" weight="8%" alt="">
+        </div>
+
+      </div>
+    </div>
+
+    <div class="col-md-2">
+      <p>Ayuda</p>
+      <p>Cobertura</p>
+      <p>Arcotel</p>
+      <p>Normativa</p>
+      <p>Privacidad</p>
+      <p>Índices de calidad</p>
+      <p>Homologación de equipos</p>
+      <p>911</p>
+    </div>
+
+    <div class="col-md-2">
+      <center><h4>Siguenos en:</h4></center>
+      <div class="row">
+        <div class="col-md-4">
+          <img src="https://icones.pro/wp-content/uploads/2021/02/facebook-icone-noir.png" height="10%" weight="10%" alt="">
+        </div>
+        <div class="col-md-4">
+          <img src="https://st.depositphotos.com/7438112/52291/v/450/depositphotos_522913208-stock-illustration-bird-icon-on-white-background.jpg" height="10%" weight="10%" alt="">
+        </div>
+        <div class="col-md-4">
+          <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQNZ_B22Po_bBtbm39NbkDCPkvpZqj2eL0oMyVi7eCp4CqzkKGOI8c9xHePPcdTuAJE7Hc&usqp=CAU" height="10%" weight="10%" alt="">
+        </div>
+      </div>
+    </div>
+    <div class="col-md-2">
+    </div>
+
+  </div>
+
+</div>
+
+  <!--PIE DE PAGINA-->
+  <div class="b-example-divider"></div>
+    <div class="container-fluid bg-dark ">
+        <center><h4 class="dropdown-item text-white md-100">SERVICIO PRESTADO POR OTECEL S.A.</h4></center>
+    </div>
+<!--TERMINA PIE DE PAGINA-->
+
+
+  </body>
+</html>
