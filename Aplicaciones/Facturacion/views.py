@@ -22,3 +22,22 @@ def eliminarCliente(request,id):
     clienteEliminar=Cliente.objects.get(id=id)
     clienteEliminar.delete()
     return redirect('/')
+
+# paginas 
+
+def tu_sazon(request):
+    # Lógica de la vista
+    return render(request, 'tu_sazon.html')
+
+def tu_comunidad(request):
+    # Lógica de la vista
+    return render(request, 'tu_comunidad.html')
+def club(request):
+    # Lógica de la vista
+    return render(request, 'club.html')
+def producto_aki(request):
+    # Lógica de la vista
+    return render(request, 'producto_aki.html')
+def la_original(request):
+    # Lógica de la vista
+    return render(request, 'la_original.html')
